@@ -1,7 +1,9 @@
 @import url("../css/login.css");
 @import url("../css/register.css");
 @import url("../css/addNewItem.css");
-
+@import url("../css/index.css");
+@import url("../css/itemDescription.css");
+@import url("../css//checkout.css");
 * {
   margin: 0;
   padding: 0;

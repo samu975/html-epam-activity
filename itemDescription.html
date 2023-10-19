@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Item Description</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="header">
+        <div class="header__logo">
+          <span class="material-icons"> menu </span>
+          <h3>Logo</h3>
+        </div>
+        <div class="header__searcher">
+          <input
+            type="text"
+            placeholder="Search by item name"
+            class="header__searcher--input"
+          />
+          <select name="categories" id="categories-select">
+            <option value="none">All categories</option>
+            <option value="option-1">option 1</option>
+            <option value="option-2">option 2</option>
+            <option value="option-3">option 3</option>
+          </select>
+        </div>
+        <div class="header__buttons">
+          <span class="material-icons header_buttons--favorite">
+            favorite
+          </span>
+          <span class="material-icons header_buttons--cart">
+            shopping_cart
+          </span>
+          <div class="header__buttons--profile">
+            <button class="header__buttons--login">
+              <a href="/">Login</a>
+            </button>
+            <span>|</span>
+            <button class="header__buttons--signUp">
+              <a href="/signUp.html">Sign Up</a>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="main__description">
+      <section class="item__detail--left">
+        <div class="item__detail--left-img"></div>
+        <h2 class="item__detail--left-heading">Item detail description</h2>
+        <p class="item__detail--left-description">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
+          ducimus est quisquam enim quam ex illo! Mollitia vitae, consequuntur
+          illum eligendi repudiandae minima quam omnis, asperiores quasi animi
+          neque ex! Maxime expedita aspernatur ratione sequi numquam autem
+          explicabo officiis cumque itaque facilis laboriosam tempore ut sit et,
+          cupiditate, odit est aperiam voluptas? Odio, animi veniam. Recusandae
+          cum eveniet sint architecto? Quam praesentium inventore suscipit
+          nostrum cum id unde, maxime excepturi recusandae delectus? Quaerat
+          assumenda deleniti laboriosam magni soluta expedita, necessitatibus
+        </p>
+      </section>
+      <section class="item__detail--right">
+        <h2 class="item__detail--right-heading">Coupon Name</h2>
+        <p class="item__detail--right-description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+          harum aliquam nostrum! Delectus atque rerum sapiente nobis ad, qui
+          quidem consequatur alias, assumenda velit itaque culpa, dolorum
+          adipisci tempore quaerat!
+        </p>
+        <div class="item__detail--right-time">
+          Time Left To Buy <br />
+          <strong>12 days 14 hours</strong>
+        </div>
+        <div class="item__detail--right-price">
+          <span class="price">$ 235</span>
+          <button class="add-to-cart-btn">
+            Add to cart
+            <span class="material-icons header_buttons--cart">
+              shopping_cart
+            </span>
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

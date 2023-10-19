@@ -1,0 +1,95 @@
+#main__index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fcfcfc;
+  height: 100%;
+}
+
+.category {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: #e0e0e0;
+}
+
+.category__icon {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category__container {
+  width: 60px;
+  height: 60px;
+  background-color: #ddd;
+}
+
+.items__layout {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.coupon {
+  background-color: white;
+  width: 200px; /* Puedes ajustar según el diseño deseado */
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.coupon__image {
+  background-color: #e0e0e0; /* Color temporal, puedes reemplazarlo con una imagen o color de fondo */
+  height: 100px; /* Puedes ajustar según el diseño deseado */
+  border-radius: 5px; /* Esquinas redondeadas */
+}
+
+.coupon__name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.coupon__description {
+  font-size: 14px;
+  color: #777;
+}
+
+.coupon__expiry {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+}
+
+.coupon__price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: auto; /* Alinea el precio y el botón al fondo del contenedor */
+}
+
+.coupon__cart-btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #555;
+  }
+}
