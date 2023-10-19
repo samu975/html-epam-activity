@@ -1,0 +1,129 @@
+/* -------------------------------- header --------------------------------- */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.header__logo {
+  display: flex;
+  gap: 10px;
+}
+.header__searcher {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+.header__searcher--input {
+  border: none;
+  outline: none;
+  width: 350px;
+}
+
+#categories-select {
+  border: none;
+  border-left: 1px solid #ccc;
+  padding: 5px;
+}
+
+.header__buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header_buttons--favorite {
+  color: #c4c4c4;
+  cursor: pointer;
+}
+
+.header_buttons--favorite:hover {
+  color: #000;
+}
+
+.header_buttons--cart {
+  color: #c4c4c4;
+  cursor: pointer;
+}
+
+.header_buttons--cart:hover {
+  color: #000;
+}
+
+.header__buttons--profile button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* ---------------------------- main ---------------------------------------------- */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 88vh;
+  gap: 20px;
+  padding: 15px;
+  background-color: #f2f2f2;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 15px;
+  background-color: #fcfcfc;
+  height: 200px;
+  margin-bottom: 55px;
+  width: 300px;
+}
+
+.login__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+  position: relative;
+  top: 70px;
+  left: 75px;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+.login__logo h3 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login__form input {
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 5px;
+  text-align: center;
+  width: 250px;
+}
+
+.login__form input::placeholder {
+  text-align: center;
+  color: #ccc;
+}
+
+.login__form button {
+  border: none;
+  outline: none;
+  padding: 5px;
+  color: #fff;
+  background-color: #6fcf97;
+  cursor: pointer;
+  width: 250px;
+}

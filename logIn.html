@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header">
+        <div class="header__logo">
+          <span class="material-icons"> menu </span>
+          <h3>Logo</h3>
+        </div>
+        <div class="header__searcher">
+          <input
+            type="text"
+            placeholder="Search by item name"
+            class="header__searcher--input"
+          />
+          <select name="categories" id="categories-select">
+            <option value="none">All categories</option>
+            <option value="option-1">option 1</option>
+            <option value="option-2">option 2</option>
+            <option value="option-3">option 3</option>
+          </select>
+        </div>
+        <div class="header__buttons">
+          <span class="material-icons header_buttons--favorite">
+            favorite
+          </span>
+          <span class="material-icons header_buttons--cart">
+            shopping_cart
+          </span>
+          <div class="header__buttons--profile">
+            <button class="header__buttons--login">
+              <a href="/">Login</a>
+            </button>
+            <span>|</span>
+            <button class="header__buttons--signUp">
+              <a href="/signUp.html">Sign Up</a>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="login">
+        <div class="login__logo">
+          <h3>Logo</h3>
+        </div>
+        <div class="login__form">
+          <input type="text" placeholder="Login" />
+          <input type="password" placeholder="Password" />
+          <button>Login</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
